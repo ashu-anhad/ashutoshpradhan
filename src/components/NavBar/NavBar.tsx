@@ -6,17 +6,17 @@ const NavBar = (): any => {
     <div className="nav-bar">
       <div className="bottom clearfix">
         <div className="title">
-          <a href="index.html" className="">
+          <a>
             Ashutosh
           </a>
         </div>
         <div className="header-action-button-wrapper">
-          <a href="" className="header-action-button action-button">
+          <a className="header-action-button action-button">
             <i className="md md-add"></i>
           </a>
         </div>
 
-        <a href="" className="responsive-menu-open">
+        <a className="responsive-menu-open">
           Menu <i className="fa fa-bars"></i>
         </a>
         <nav className="main-nav">

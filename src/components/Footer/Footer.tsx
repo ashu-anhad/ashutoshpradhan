@@ -17,19 +17,19 @@ const Footer = () => {
             <div className="col-sm-4">
               <h4>Connect</h4>
               <div className="social-icons">
-                <a href="" className="social-icon">
+                <a className="social-icon">
                   <i className="fa fa-facebook"></i>
                 </a>
-                <a href="" className="social-icon">
+                <a className="social-icon">
                   <i className="fa fa-twitter"></i>
                 </a>
-                <a href="" className="social-icon">
+                <a className="social-icon">
                   <i className="fa fa-google-plus"></i>
                 </a>
-                <a href="" className="social-icon">
+                <a className="social-icon">
                   <i className="fa fa-behance"></i>
                 </a>
-                <a href="" className="social-icon">
+                <a className="social-icon">
                   <i className="fa fa-dribbble"></i>
                 </a>
               </div>

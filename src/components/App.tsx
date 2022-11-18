@@ -26,10 +26,10 @@ function App() {
               companies both big and small.
             </p>
             <p className="button-row">
-              <a href="" className="button solid-button white">
+              <a className="button solid-button white">
                 Hire Me Now
               </a>
-              <a href="" className="button solid-button purple">
+              <a className="button solid-button purple">
                 Download CV
               </a>
             </p>
