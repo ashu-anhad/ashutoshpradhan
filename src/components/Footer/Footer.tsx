@@ -18,19 +18,19 @@ const Footer = () => {
               <h4>Connect</h4>
               <div className="social-icons">
                 <a href="/" className="social-icon">
-                  <i className="fa fa-facebook"></i>
+                  <i className="fab fa-facebook-f"></i>
                 </a>
                 <a href="/" className="social-icon">
-                  <i className="fa fa-twitter"></i>
+                  <i className="fab fa-twitter"></i>
                 </a>
                 <a href="/" className="social-icon">
-                  <i className="fa fa-google-plus"></i>
+                  <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="/" className="social-icon">
-                  <i className="fa fa-behance"></i>
+                  <i className="fab fa-instagram"></i>
                 </a>
                 <a href="/" className="social-icon">
-                  <i className="fa fa-dribbble"></i>
+                  <i className="fab fa-github"></i>
                 </a>
               </div>
             </div>

@@ -29,7 +29,11 @@ function App() {
               <a href="/" className="button solid-button white">
                 Hire Me Now
               </a>
-              <a href="/" className="button solid-button purple">
+              <a
+                href="https://drive.google.com/file/d/12Jo-licvAXe-T9b8ws3iMCv4dR070GDa/view?usp=sharing"
+                target="_blank"
+                className="button solid-button purple"
+              >
                 Download CV
               </a>
             </p>
