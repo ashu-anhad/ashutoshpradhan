@@ -32,6 +32,7 @@ function App() {
               <a
                 href="https://drive.google.com/file/d/12Jo-licvAXe-T9b8ws3iMCv4dR070GDa/view?usp=sharing"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="button solid-button purple"
               >
                 Download CV
