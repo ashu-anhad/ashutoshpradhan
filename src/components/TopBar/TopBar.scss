@@ -1,6 +1,33 @@
 .top-bar {
-    background-color: #7C4DFF;
-    color: aliceblue;
-    padding: .85rem 0;
-    text-align: center;
+  background: #7c4dff;
+  line-height: 50px;
+  color: antiquewhite;
+  padding: 0 60px;
+}
+
+.top-bar a {
+  color: #fff;
+}
+.top-bar a span {
+  text-transform: uppercase;
+}
+.top-bar a:hover {
+  opacity: 0.75;
+  text-decoration: none;
+}
+.top-bar .available {
+  float: left;
+}
+.top-bar .available i {
+  font-size: 25px;
+  margin-right: 9px;
+  vertical-align: middle;
+}
+
+.top-bar .right-icons {
+    float: right;
+    font-size: 24px;
+}
+.top-bar .right-icons a {
+    margin-left: 12px;
 }
