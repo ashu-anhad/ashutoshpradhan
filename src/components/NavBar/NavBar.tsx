@@ -10,11 +10,6 @@ const NavBar = (): any => {
             Ashutosh
           </a>
         </div>
-        <div className="header-action-button-wrapper">
-          <a href="/" className="header-action-button action-button">
-            <i className="md md-add"></i>
-          </a>
-        </div>
 
         <a href="/" className="responsive-menu-open">
           Menu <i className="fa fa-bars"></i>

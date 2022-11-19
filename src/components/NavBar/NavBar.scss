@@ -144,3 +144,9 @@
     right: 12px;
   }
 }
+
+@media all and (max-width: 768px) {
+  .nav-bar .bottom {
+    padding: 0 30px;
+  }
+}

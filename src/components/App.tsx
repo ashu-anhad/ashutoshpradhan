@@ -12,9 +12,6 @@ function App() {
       <NavBar />
       <div className="container">
         <div className="row">
-          <div className="col-sm-5">
-            <img src={me} alt="man" className="img-responsive section-img" />
-          </div>
           <div className="col-sm-7 main-content">
             <h1>
               Develop<sup>+</sup> Design<sup>+</sup> Interactive
@@ -38,6 +35,9 @@ function App() {
                 Download CV
               </a>
             </p>
+          </div>
+          <div className="col-sm-5">
+            <img src={me} alt="man" className="img-responsive section-img" />
           </div>
         </div>
       </div>
