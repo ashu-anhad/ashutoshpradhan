@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="col-sm-4">
               <h4>Address</h4>
               <p>
-                SA 8/34 DPR, Buddha Nagar Colony
+                SA 8/34 DPR, Buddha City, Sarnath
                 <br />
                 Varanasi, Uttar Pradesh (IN)
               </p>

@@ -35,7 +35,7 @@ const AboutMe = () => {
               <b>Email:</b> ashuanhad@gmail.com
             </li>
             <li>
-              <b>Address:</b> SA 8/34 DPR, Buddha Nagar Colony
+              <b>Address:</b> SA 8/34 DPR, Buddha City, Sarnath
               <br />
               Varanasi, Uttar Pradesh (IN)
             </li>
@@ -51,7 +51,7 @@ const AboutMe = () => {
                 <div className="icon">
                   <i className="fa-solid fa-laptop-code"></i>
                 </div>
-                <h5>Web &amp; Development</h5>
+                <h5>Web Development</h5>
               </div>
             </div>
             <div className="col-sm-4">
