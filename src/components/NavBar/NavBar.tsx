@@ -87,25 +87,25 @@ const NavBar = (): any => {
           <div className="title">
             <Link to="/">Ashutosh</Link>
           </div>
-          <a
-            rel="noopener noreferrer"
+          <NavLink
+            to="#"
             className="responsive-menu-open"
             onClick={toggleResponsiveMenu}
           >
             Menu <i className="fa fa-bars"></i>
-          </a>
+          </NavLink>
           <nav className="main-nav">{getMenuOptions()}</nav>
         </div>
       </div>
 
       <div className={`responsive-menu ${isMenuVisible ? "open" : "close"}`}>
-        <a
-          rel="noopener noreferrer"
+        <NavLink
+          to="#"
           className="responsive-menu-close"
           onClick={toggleResponsiveMenu}
         >
           Close <i className="fa-solid fa-xmark"></i>
-        </a>
+        </NavLink>
         <nav className="responsive-nav" onClick={toggleResponsiveMenu}>
           {getMenuOptions()}
         </nav>
