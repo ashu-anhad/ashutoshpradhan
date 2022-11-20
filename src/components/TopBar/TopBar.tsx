@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./TopBar.scss";
 
 const TopBar = (): any => {
   return (
     <div className="top-bar clearfix">
-      <a href="#section8" className="available">
+      <Link to="/contact" className="available">
         <i className="fa-regular fa-envelope"></i>
         <span>Available For Freelance</span>
-      </a>
+      </Link>
       <div className="right-icons">
         <a
           className="download"
