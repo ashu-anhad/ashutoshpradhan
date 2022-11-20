@@ -10,7 +10,7 @@ const ChangingProgressProvider = (props: any) => {
       }, props.interval * index);
     };
     props.values.map((per: any, index: any) => delay(per, index));
-  }, [props.values]);
+  }, [props.values, props.interval]);
 
   return props.children(perValue);
 };
