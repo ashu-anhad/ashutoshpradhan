@@ -27,51 +27,51 @@ const Skills = () => {
             <div className="col-sm-6">
               <ul className="list-icons purple bold-list">
                 <li>
-                  <i className="md-arrow-forward"></i>Install and Configure
+                  <i className="fa-solid fa-arrow-right"></i>Install and Configure
                 </li>
                 <li>
-                  <i className="md-arrow-forward"></i>Web Usability
+                  <i className="fa-solid fa-arrow-right"></i>Web Usability
                 </li>
                 <li>
-                  <i className="md-arrow-forward"></i>Digital Painting
+                  <i className="fa-solid fa-arrow-right"></i>Digital Painting
                 </li>
                 <li>
-                  <i className="md-arrow-forward"></i>Grid and Layout
+                  <i className="fa-solid fa-arrow-right"></i>Grid and Layout
                 </li>
                 <li>
-                  <i className="md-arrow-forward"></i>Mobile App Design
+                  <i className="fa-solid fa-arrow-right"></i>Mobile App Design
                 </li>
                 <li>
-                  <i className="md-arrow-forward"></i>Graphical Design
+                  <i className="fa-solid fa-arrow-right"></i>Graphical Design
                 </li>
                 <li>
-                  <i className="md-arrow-forward"></i>SEO Optimization
+                  <i className="fa-solid fa-arrow-right"></i>SEO Optimization
                 </li>
               </ul>
             </div>
             <div className="col-sm-6">
               <ul className="list-icons purple bold-list">
                 <li>
-                  <i className="md-arrow-forward"></i>UX and UI Design
+                  <i className="fa-solid fa-arrow-right"></i>UX and UI Design
                 </li>
                 <li>
-                  <i className="md-arrow-forward"></i>Logo Design
+                  <i className="fa-solid fa-arrow-right"></i>Logo Design
                 </li>
                 <li>
-                  <i className="md-arrow-forward"></i>3D Animation &amp; Visual
+                  <i className="fa-solid fa-arrow-right"></i>3D Animation &amp; Visual
                   Effects
                 </li>
                 <li>
-                  <i className="md-arrow-forward"></i>Audio Video Editing
+                  <i className="fa-solid fa-arrow-right"></i>Audio Video Editing
                 </li>
                 <li>
-                  <i className="md-arrow-forward"></i>Photography
+                  <i className="fa-solid fa-arrow-right"></i>Photography
                 </li>
                 <li>
-                  <i className="md-arrow-forward"></i>Web Development
+                  <i className="fa-solid fa-arrow-right"></i>Web Development
                 </li>
                 <li>
-                  <i className="md-arrow-forward"></i>Digital Marketing
+                  <i className="fa-solid fa-arrow-right"></i>Digital Marketing
                 </li>
               </ul>
             </div>
