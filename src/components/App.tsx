@@ -5,6 +5,7 @@ import TopBar from "./TopBar/TopBar";
 import NavBar from "./NavBar/NavBar";
 import Footer from "./Footer/Footer";
 import { Route, Routes } from "react-router-dom";
+import AboutMe from "./AboutMe/AboutMe";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/About" element={<div>About Me</div>} />
+        <Route path="/About" element={<AboutMe />} />
         <Route path="/Skill" element={<div>My Skills </div>} />
         <Route path="/education" element={<div>My Education</div>} />
         <Route path="/experience" element={<div>My Experience</div>} />
