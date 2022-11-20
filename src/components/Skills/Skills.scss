@@ -1,0 +1,52 @@
+.skills {
+  padding: 72px 12px;
+}
+
+/* ==========================================================================
+      05. Progress Bar
+      ========================================================================== */
+.progress-bar {
+  height: 10px;
+  font-size: 9px;
+  background: #7c4dff;
+}
+.progress-bar-label {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 12px;
+  color: #232323;
+}
+.circle-progress {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  float: left;
+}
+
+.circle-progress-label-wrapper {
+  margin-left: 240px;
+  height: 200px;
+}
+.circle-progress-label {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #232323;
+  position: relative;
+  top: 50%;
+}
+@media all and (max-width: 768px) {
+  .circle-progress-label-wrapper {
+    margin-left: 0;
+    height: auto;
+    margin-top: 12px;
+  }
+  .circle-progress-label {
+    top: auto;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
