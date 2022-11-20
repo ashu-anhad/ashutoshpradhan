@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./NavBar.scss";
 
 const NavBar = (): any => {
@@ -15,31 +15,69 @@ const NavBar = (): any => {
         </Link>
         <nav className="main-nav">
           <ul className="list-unstyled">
-            <li className="active">
-              <a href="#section1" className="">
+            <li>
+              <NavLink
+                className={(isActive) => (isActive.isActive ? "active" : "")}
+                to="/"
+              >
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="">
-              <Link to="/about">About</Link>
+              <NavLink
+                className={(isActive) => (isActive.isActive ? "active" : "")}
+                to="/about"
+              >
+                About
+              </NavLink>
             </li>
             <li className="">
-              <Link to="/skill">Skill</Link>
+              <NavLink
+                className={(isActive) => (isActive.isActive ? "active" : "")}
+                to="/skill"
+              >
+                Skill
+              </NavLink>
             </li>
             <li className="">
-              <Link to="/experience">Experience</Link>
+              <NavLink
+                className={(isActive) => (isActive.isActive ? "active" : "")}
+                to="/experience"
+              >
+                Experience
+              </NavLink>
             </li>
             <li className="">
-              <Link to="/education">Education</Link>
+              <NavLink
+                className={(isActive) => (isActive.isActive ? "active" : "")}
+                to="/education"
+              >
+                Education
+              </NavLink>
             </li>
             <li className="">
-              <Link to="/work">Work</Link>
+              <NavLink
+                className={(isActive) => (isActive.isActive ? "active" : "")}
+                to="/work"
+              >
+                Work
+              </NavLink>
             </li>
             <li className="">
-              <Link to="/blog">Blog</Link>
+              <NavLink
+                className={(isActive) => (isActive.isActive ? "active" : "")}
+                to="/blog"
+              >
+                Blog
+              </NavLink>
             </li>
             <li className="">
-              <Link to="/contact">Contact</Link>
+              <NavLink
+                className={(isActive) => (isActive.isActive ? "active" : "")}
+                to="/contact"
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         </nav>
