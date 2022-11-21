@@ -4,7 +4,7 @@ import Home from "./Home/Home";
 import TopBar from "./TopBar/TopBar";
 import NavBar from "./NavBar/NavBar";
 import Footer from "./Footer/Footer";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import AboutMe from "./AboutMe/AboutMe";
 import Skills from "./Skills/Skills";
 
@@ -22,6 +22,7 @@ const App = () => {
         <Route path="/work" element={<div>My Work</div>} />
         <Route path="/blog" element={<div>My Blog</div>} />
         <Route path="/contact" element={<div>Contact Me</div>} />
+        <Route path="/*" element={<Navigate to="/" />}></Route>
       </Routes>
       <Footer />
     </div>
