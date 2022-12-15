@@ -78,7 +78,7 @@ const Experience = () => {
             stopOnHover={false}
           >
             <div>
-              <img className="circular-image" src={c1} />
+              <img className="circular-image" src={c1} alt="testimonial" />
               <div className="legend">
                 <p>
                   "Awesome to work with. Incredibly organized, easy to
@@ -89,7 +89,7 @@ const Experience = () => {
               </div>
             </div>
             <div>
-              <img className="circular-image" src={c1} />
+              <img className="circular-image" src={c1} alt="testimonial" />
               <div className="legend">
                 <p>
                   "Awesome to work with. Incredibly organized, easy to
@@ -100,7 +100,7 @@ const Experience = () => {
               </div>
             </div>
             <div>
-              <img className="circular-image" src={c1} />
+              <img className="circular-image" src={c1} alt="testimonial" />
               <div className="legend">
                 <p>
                   "Awesome to work with. Incredibly organized, easy to
